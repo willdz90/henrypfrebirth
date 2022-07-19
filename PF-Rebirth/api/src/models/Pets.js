@@ -9,5 +9,6 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     id: { defaultValue: 0 },
+    img:{ type: DataTypes.STRING}
   });
 };
