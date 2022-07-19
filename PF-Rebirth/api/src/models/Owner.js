@@ -5,7 +5,7 @@ module.exports = (sequelize) => {
         name: {
             type: DataTypes.STRING,
             allowNull: false
-        },
+        },perrito: { type: DataTypes.STRING },
         id: {
             type: DataTypes.UUID,
             allowNull: false,
@@ -22,3 +22,4 @@ module.exports = (sequelize) => {
         }
     })
 }
+
