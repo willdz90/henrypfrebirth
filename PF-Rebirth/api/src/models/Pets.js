@@ -8,6 +8,11 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    id: { defaultValue: 0 },
+    id: { defaultValue: 0 
+    },
+    hola: {
+      defaultValue : "Hola"
+    },
+
   });
 };
