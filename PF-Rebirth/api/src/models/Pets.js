@@ -9,5 +9,9 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     id: { defaultValue: 0 },
+    type: {
+      type: DataTypes.STRING,
+      allowNull: false
+    }
   });
 };
